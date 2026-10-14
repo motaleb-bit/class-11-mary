@@ -1,0 +1,170 @@
+/* All common CSS start Here  */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* All common CSS end Here  */
+
+/* Header Part CSS Start Here  */
+
+.headerPart {
+  padding: 50px 0;
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  z-index:1;
+
+}
+
+.menu ul {
+  display: flex;
+  gap: 71px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .btn a {
+  padding: 18px 35px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+} */
+
+.menu ul li a {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  color: #474747;
+}
+
+.menuBtnFlex {
+  display: flex;
+  gap: 67px;
+  align-items: center;
+}
+
+/* Header Part CSS End Here */
+
+/* Banner Part CSS Start Here */
+.bannerPart {
+  padding-top: 230px;
+  background-image: url(../images/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index:0;
+}
+
+.bannerContent h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+  color: #474747;
+}
+
+.bannerContent h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 85px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color: #181818;
+}
+
+.bannerContent p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  width: 585px;
+  color: #757575;
+}
+
+.bannerFlex {
+  display: flex;
+  gap: 265px;
+  align-items: center;
+}
+
+.btn{
+  padding-top:19px;
+  padding-bottom:18px;
+  padding-left:17px; 
+  padding-right:17px;
+  background: #fd6e0a;
+  display: inline-block;
+  border-radius:5px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  border: 1px solid #fd6e0a;
+}
+
+.btn:hover{
+  border: 1px solid #fd6e0a;
+  background: transparent;
+  color: #fd6e0a;
+}
+
+.bannerBtn{
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+}
+.btn.gap{
+  margin-right: 10px;
+}
+
+
+.btnn{
+  padding-top:19px;
+  padding-bottom: 18px;
+  padding-left: 35px;
+  padding-right: 35px;
+  background: #fd6e0a;
+  display: inline-block;
+  border-radius:5px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  border: 1px solid #fd6e0a;
+}
+
+.btnn:hover{
+  border: 1px solid #fd6e0a;
+  background: transparent;
+  color: #fd6e0a;
+}
+
+
+
+
+
+/* Banner Part CSS End Here  */
